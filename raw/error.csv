@@ -1,0 +1,16 @@
+﻿API Name,API Version,operationName: Descending,Error Count,Response Code
+telkom-infracare,1.0,/apidashboard/{path}/{path2},158,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2}/{path3},74,400
+telkom-infracare,1.0,/createticket/{idmenu}/{kode},58,400
+telkom-infracare,1.0,/apiaccount/{path}/{path2},41,400
+telkom-infracare,1.0,/apiaccount/{path}/{path2}/{path3},20,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2},7,444
+telkom-infracare,1.0,/apiaccount/{path}/{path2},2,444
+telkom-infracare,1.0,/apidashboard/{path}/{path2}/{path3},2,444
+telkom-infracare,1.0,/createticket/{idmenu}/{kode},8,500
+telkom-esb-quota,1.0,/getcustomerqualification,8,500
+telkom-mycx-ticket,1.0,/getticketorderx,3,408
+telkom-mycx-check,1.0,/checkcustomerconsent,1,408
+telkom-mycx-tktassetworkzonedcs,1.0,/querytk_assetworkzone,1,408
+telkom-myihpartnermbe-agent,1.0,/poinsf,1,400
+telkom-starclick,1.0,/apiscone/{path1}/{path2}/{path3},1,400

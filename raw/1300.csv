@@ -1,0 +1,12 @@
+﻿API Name,API Version,operationName,Error Count,Response Code
+myindihome_new,1.0,/getdata,1,400
+telkom-esb-quota,1.0,/getcustomerqualification,8,500
+telkom-infracare,1.0,/apidashboard/{path}/{path2},95,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2}/{path3},48,400
+telkom-infracare,1.0,/apiaccount/{path}/{path2},28,400
+telkom-infracare,1.0,/createticket/{idmenu}/{kode},15,400
+telkom-infracare,1.0,/apiaccount/{path}/{path2}/{path3},6,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2},1,504
+telkom-ibooster-occupancy,1.0,/slotportidentification,1,408
+telkom-mycx-ticket,1.0,/getticketorderx,2,408
+telkom-mycx-tktassetworkzonedcs,1.0,querytk_assetworkzone,1,408

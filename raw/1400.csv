@@ -1,0 +1,14 @@
+﻿API Name,API Version,operationName: Descending,Error Count,Response Code
+myindihome_new,1.0,/getdata,1,400
+telkom-esb-quota,1.0,/getcustomerqualification,9,500
+telkom-infracare,1.0,/createticket/{idmenu}/{kode},1,500
+telkom-infracare,1.0,/apiaccount/{path}/{path2}/{path3},1,503
+telkom-infracare,1.0,/apiaccount/{path}/{path2}/{path3},14,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2}/{path3},54,400
+telkom-infracare,1.0,/apidashboard/{path}/{path2},115,400
+telkom-infracare,1.0,/apiaccount/{path}/{path2},37,400
+telkom-infracare,1.0,/createticket/{idmenu}/{kode},41,400
+telkom-mycx-ticket,1.0,/getticketorderx,1,408
+telkom-mycx-tktassetworkzonedcs,1.0,/querytk_assetworkzone,6,408
+telkom-tibs,1.0,/getinfobilling147new,6,408
+telkom-useetvgo-feasibility,1.0,/feasibilityuseetvapps,1,400
