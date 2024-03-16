@@ -1,0 +1,7 @@
+﻿API Name,Operation Name,PI Version,Response Code,Count
+telkom-newoss-worklog,/getdata,1.1,200,23075
+telkom-newoss-worklog,/getcustomerqualification,1.1,200,23075
+telkom-newoss-worklog,/testes,1.1,200,23075
+telkom-infracare,/apiaccount/{path}/{path2}/{path3},1.0,200,1
+telkom-infracare,/getcustomerqualification,1.0,200,1
+telkom-infracare,/getdata,1.0,200,1

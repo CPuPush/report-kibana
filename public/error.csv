@@ -1,0 +1,3 @@
+﻿API Name,API Version,operationName,Error Count,Response Code
+myindihome_new,1.0,/getdata,1,400
+telkom-esb-quota,1.0,/getcustomerqualification,9,500
