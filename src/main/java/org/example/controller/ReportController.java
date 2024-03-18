@@ -19,7 +19,7 @@ public class ReportController {
     public void compareReport(String pathFileSuccess, String pathFileError) {
         List<Report> listSuccess = reportRepository.readCsvSuccess(pathFileSuccess);
         List<Report> listError = reportRepository.readCsvError(pathFileError);
-        List<String> repostKibana = new ArrayList<>();
+        List<String> reportKibana = new ArrayList<>();
 
         for(Report error: listError){
 //            String temp = error.getOperationName();
@@ -34,14 +34,14 @@ public class ReportController {
             String erVersion = error.getApiVersion();
             for (Report success : listSuccess){
                 if (erAPI.equals(success.getApiName()) & erOperation.equals(success.getOperationName()) & erVersion.equals(success.getApiVersion())){
-                    repostKibana.add(success.getApiName() + "/" + success.getApiVersion() + success.getOperationName() + " | " + "Success Count: " + success.getCount() + " | Error Count: " + error.getCount() + " | Response Code: " + error.getResponseCode());
+                    reportKibana.add(success.getApiName() + "/" + success.getApiVersion() + success.getOperationName() + " | " + "Success Count: " + success.getCount() + " | Error Count: " + error.getCount() + " | Response Code: " + error.getResponseCode());
                     break;
                 }
             }
         }
-        for (String repost: repostKibana){
+        for (String repost: reportKibana){
             System.out.println(repost);
         }
-        writeFile.writeReport(repostKibana);
+        writeFile.writeReport(reportKibana);
     }
 }

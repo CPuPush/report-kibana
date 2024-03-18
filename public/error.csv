@@ -1,9 +1,20 @@
-﻿API Name,API Version,Response Code,operationName: Descending,Count
-telkom-infracare,1.0,400,/apidashboard/{path}/{path2},49
-telkom-infracare,1.0,400,/apidashboard/{path}/{path2}/{path3},24
-telkom-infracare,1.0,400,/apiaccount/{path}/{path2},14
-telkom-infracare,1.0,400,/createticket/{idmenu}/{kode},9
-telkom-infracare,1.0,400,/apiaccount/{path}/{path2}/{path3},2
-telkom-esb-quota,1.0,500,/getcustomerqualification,4
-myindihome_new,1.0,408,/getdata,2
-telkom-myihpartnermbe-agent,1.0,408,/poinsf,1
+﻿"API Name","API Version","Response Code","operationName: Descending",Count
+"telkom-infracare","1.0",400,"/apidashboard/{path}/{path2}",539
+"telkom-infracare","1.0",400,"/apidashboard/{path}/{path2}/{path3}",287
+"telkom-infracare","1.0",400,"/apiaccount/{path}/{path2}",203
+"telkom-infracare","1.0",400,"/apiaccount/{path}/{path2}/{path3}",105
+"telkom-infracare","1.0",400,"/createticket/{idmenu}/{kode}",81
+"telkom-infracare","1.0",400,"/apiticket/{path}/{path2}",1
+"telkom-infracare","1.0",444,"/apidashboard/{path}/{path2}",31
+"telkom-infracare","1.0",444,"/apidashboard/{path}/{path2}/{path3}",18
+"telkom-infracare","1.0",444,"/apiaccount/{path}/{path2}",14
+"telkom-infracare","1.0",444,"/apiaccount/{path}/{path2}/{path3}",7
+"telkom-infracare","1.0",500,"/createticket/{idmenu}/{kode}",15
+"telkom-infracare","1.0",503,"/apidashboard/{path}/{path2}",1
+"telkom-esb-quota","1.0",500,"/getcustomerqualification",25
+"telkom-esb-quota","1.0",400,"/getspecificquota",1
+"telkom-mycx-tktassetworkzonedcs","1.0",408,"querytk_assetworkzone",12
+"telkom-mycx-ticket","1.0",408,"/getticketorderx",3
+"telkom-ibooster-occupancy","1.0",408,"/slotportidentification",1
+"telkom-myihpartnermbe-agent","1.0",500,"/poinsf",1
+"telkom-newoss-worklog","1.1",400,"/addworklog",1

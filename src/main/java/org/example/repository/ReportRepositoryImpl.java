@@ -17,7 +17,10 @@ public class ReportRepositoryImpl implements ReportRepository {
         try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
             while ((line = br.readLine()) != null){
                 String[] data = line.split(splitCsv);
-//                "API Name","Operation Name","API Version","Response Code",Count
+                // Menghapus tanda kutip ganda dari setiap elemen data jika ada
+                for (int i = 0; i < data.length; i++) {
+                    data[i] = data[i].replace("\"", "");
+                }
                 String apiName = data[0];
                 String operationName = data[1];
                 String apiVersion = data[2];
@@ -45,7 +48,9 @@ public class ReportRepositoryImpl implements ReportRepository {
 //                String apiVersion = data[1];
 //                String responseCode = data[4];
 //                String count = data[3];
-
+                for (int i = 0; i < data.length; i++) {
+                    data[i] = data[i].replace("\"", "");
+                }
                 String apiName = data[0];
                 String operationName = data[3];
                 String apiVersion = data[1];
