@@ -39,12 +39,18 @@ public class ReportRepositoryImpl implements ReportRepository {
         try(BufferedReader br = new BufferedReader(new FileReader(filePath))){
             while ((line = br.readLine()) != null){
                 String[] data = line.split(splitCsv);
-//                API Name,API Version,operationName,Error Count,Response Code
+//                API Name,API Version,Response Code,operationName: Descending,Count
+//                String apiName = data[0];
+//                String operationName = data[2];
+//                String apiVersion = data[1];
+//                String responseCode = data[4];
+//                String count = data[3];
+
                 String apiName = data[0];
-                String operationName = data[2];
+                String operationName = data[3];
                 String apiVersion = data[1];
-                String responseCode = data[4];
-                String count = data[3];
+                String responseCode = data[2];
+                String count = data[4];
                 reports.add(new Report(apiName, operationName, apiVersion, responseCode, count));
             }
         } catch (IOException e) {

@@ -1,3 +1,9 @@
-﻿API Name,API Version,operationName,Error Count,Response Code
-myindihome_new,1.0,/getdata,1,400
-telkom-esb-quota,1.0,/getcustomerqualification,9,500
+﻿API Name,API Version,Response Code,operationName: Descending,Count
+telkom-infracare,1.0,400,/apidashboard/{path}/{path2},49
+telkom-infracare,1.0,400,/apidashboard/{path}/{path2}/{path3},24
+telkom-infracare,1.0,400,/apiaccount/{path}/{path2},14
+telkom-infracare,1.0,400,/createticket/{idmenu}/{kode},9
+telkom-infracare,1.0,400,/apiaccount/{path}/{path2}/{path3},2
+telkom-esb-quota,1.0,500,/getcustomerqualification,4
+myindihome_new,1.0,408,/getdata,2
+telkom-myihpartnermbe-agent,1.0,408,/poinsf,1
